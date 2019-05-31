@@ -3,7 +3,7 @@ class Song
   attr_reader :name, :genre
 
   @@all = []
-  
+
   def initialize(name, genre)
     @name = name
     @genre = genre
@@ -13,5 +13,5 @@ class Song
   def self.all
     @@all
   end
-  
+
 end
